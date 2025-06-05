@@ -101,7 +101,7 @@ num_questions = int_check("Please enter the number of questions (enter for unlim
                           low=1, exit_code="")
 
 if num_questions == "":
-    num_questions = float("infinite")
+    num_questions = float("inf")
 
 # Ask user if they want to customise the number range
 default_params = yes_no("Do you want to use the default game parameters? ")
